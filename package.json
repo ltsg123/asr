@@ -1,0 +1,23 @@
+{
+  "name": "ASR",
+  "private": true,
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "description": "Audio Stream Recognition In Web",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc && tsx ./scripts/build-api.ts",
+    "build:demo": "NODE_ENV=demo vite build"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.36.0",
+    "@types/node": "^18.16.0",
+    "@types/audioworklet": "^0.0.50",
+    "terser": "5.16.3",
+    "tsx": "^3.12.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
