@@ -2,6 +2,12 @@
 
 A simple automatic speech recognition library
 
+## Source
+
+Before you start, you need to download the model and placed in the public directory.
+
+Reference: preinstall.sh.
+
 ## Using
 
 ```ts

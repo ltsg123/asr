@@ -8,6 +8,7 @@
   "description": "Audio Stream Recognition In Web",
   "scripts": {
     "dev": "vite",
+    "module": "sh ./preinstall.sh",
     "build": "vite build && tsc && tsx ./scripts/build-api.ts",
     "build:demo": "NODE_ENV=demo vite build"
   },
